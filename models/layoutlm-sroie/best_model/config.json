@@ -1,0 +1,48 @@
+{
+  "_name_or_path": "microsoft/layoutlm-base-uncased",
+  "architectures": [
+    "LayoutLMForTokenClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "B-ADDRESS",
+    "1": "B-COMPANY",
+    "2": "B-DATE",
+    "3": "B-TOTAL",
+    "4": "I-ADDRESS",
+    "5": "I-COMPANY",
+    "6": "I-DATE",
+    "7": "I-TOTAL",
+    "8": "O"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "B-ADDRESS": 0,
+    "B-COMPANY": 1,
+    "B-DATE": 2,
+    "B-TOTAL": 3,
+    "I-ADDRESS": 4,
+    "I-COMPANY": 5,
+    "I-DATE": 6,
+    "I-TOTAL": 7,
+    "O": 8
+  },
+  "layer_norm_eps": 1e-12,
+  "max_2d_position_embeddings": 1024,
+  "max_position_embeddings": 512,
+  "model_type": "layoutlm",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.42.3",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
