@@ -1,0 +1,13 @@
+pandas
+opencv-python
+pytesseract
+jupyterlab
+streamlit
+torch
+torchvision
+torchaudio
+transformers
+datasets
+seqeval
+accelerate
+scikit-learn
